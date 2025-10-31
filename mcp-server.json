@@ -1,0 +1,23 @@
+{
+  "name": "agent_generated_blender_mcp_comprehensive",
+  "exhibit_name": "Blender MCP Comprehensive",
+  "type": 3,
+  "command": "sh /workspace/blender-mcp-comprehensive/run.sh",
+  "args": [],
+  "env": {},
+  "description": "Comprehensive MCP server for Blender integration providing 47+ tools covering scene management, object operations, materials, mesh operations, animation, rendering, file I/O, and camera/lighting systems. Enables AI systems to programmatically interact with Blender's 3D creation capabilities through a secure, well-documented MCP interface.",
+  "description_for_agent": "Comprehensive Blender MCP server with 47+ tools for 3D scene creation, object manipulation, materials, animation, rendering, and file operations. Provides complete Blender API access through Model Context Protocol for AI-driven 3D modeling workflows.",
+  "user_params": {
+    "args": {},
+    "env": {
+      "BLENDER_HOST": {
+        "required": false,
+        "description": "Host address for Blender socket server (default: localhost)"
+      },
+      "BLENDER_PORT": {
+        "required": false,
+        "description": "Port number for Blender socket server (default: 9876)"
+      }
+    }
+  }
+}
